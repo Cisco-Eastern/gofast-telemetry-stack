@@ -5,7 +5,7 @@ This repo is meant to server as a base level telemetry stack for Go Fast demos.
 ## Option 1 (Easiest) - Map files into containers
 1. Either Fork or Clone this repo and copy the contents into your project
 2. Alter ```pipeline/metrics.json``` to reflect what you want to monitor
-6. Run Containers ```docker-compose run```
+6. Run Containers ```docker-compose up```
 7. Log into grafana ```http://localhost:3000```
 8. Build Grafana Dashboard to your liking and Save
 
