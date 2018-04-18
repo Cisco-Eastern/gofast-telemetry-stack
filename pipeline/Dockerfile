@@ -11,6 +11,7 @@ ADD config/pipeline.conf_REWRITTEN /data/config/pipeline.conf_REWRITTEN
 ADD metricsdump.txt /data/metricsdump.text
 ADD dump.txt /data/dump.txt
 ADD metrics.json /data/metrics.json
+ADD metrics-ospf.json /data/metrics-ospf.json
 ADD metrics_gpb.json /data/metrics_gpb.json
 
 ADD pipeline /pipeline

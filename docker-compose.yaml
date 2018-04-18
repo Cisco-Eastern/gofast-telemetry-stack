@@ -16,6 +16,7 @@ services:
       - influx_port=8086
     volumes:
       - ${PWD}/pipeline/metrics.json:/data/metrics.json
+      - ${PWD}/pipeline/metrics-ospf.json:/data/metrics-ospf.json
       - ${PWD}/pipeline/config/pipeline.conf_REWRITTEN:/data/config/pipeline.conf_REWRITTEN
 
   influx:
